@@ -1,18 +1,23 @@
 {
-    "name": "djs",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "test": "nodemon index.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "discord.js": "^13.2.0",
-        "glob": "^7.1.7",
-        "mongoose": "^6.0.2"
-    }
+  "name": "Alestro Handler",
+  "author": "Gabriel7zoo",
+  "version": "2.0.0",
+  "description": "A Discord bot template featuring a command and event handler, allowing users to easily create and manage their own bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "template",
+    "handler"
+  ],
+  "license": "Brisvi License",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "glob": "^10.3.1",
+    "mongoose": "^7.7.0"
+  }
 }
